@@ -524,7 +524,6 @@ margin on the iframe, cause it breaks stuff. */
 /* Tweak the .post wrapper style */
 .post-template .post {
     margin-top: 0;
-    border-bottom: none;
     padding-bottom: 0;
 }
 
