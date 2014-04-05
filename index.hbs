@@ -10,26 +10,7 @@
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h1 class="blog-title">{{@blog.title}}</h1>
             <h2 class="blog-description">{{@blog.description}}</h2>
-            <div class "blog-description">
-                <a href="https://itunes.apple.com/us/podcast/at-least-youre-trying/id702153446?mt=2" style="text-decoration:none;">
-                    <i class="icon-itunes"></i>iTunes Subscribe
-                </a>&nbsp;|&nbsp;
-                <a href="http://kaplon.us/alytfeed" style="text-decoration:none;">
-                    <i class="icon-rss"></i>RSS Subscribe
-                </a>&nbsp;|&nbsp;
-                <a href="https://twitter.com/AlytMatt" style="text-decoration:none;">
-                    <i class="icon-twitter"></i>
-                </a>&nbsp;|&nbsp;
-                <a href="mailto:alyt.show@gmail.com" style="text-decoration:none;">
-                    <i class="icon-email"></i>
-                </a>&nbsp;|&nbsp;
-                <a href="https://www.facebook.com/AtLeastYoureTrying" style="text-decoration:none;">
-                    <i class="icon-facebook"></i>
-                </a>&nbsp;|&nbsp;
-                <a href="" style="text-decoration:none;">
-                    <i class="icon-paypal"></i>Support
-                </a>
-            </div>
+            {{> banner_icons this}}
         </div>
     </div>
 </header>
