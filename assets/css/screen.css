@@ -538,10 +538,12 @@ margin on the iframe, cause it breaks stuff. */
     text-align: center;
 }
 
+/* Jody removed this, don't want any differences between the blog-title on index vs post pages.
 .post-template .blog-title {
     display: inline-block;
     padding: 2.5rem 0;
 }
+*/
 
 /* Keep large images within the bounds of the post-width */
 .post-content img {
